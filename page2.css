@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+.flex-container {
+    display: flex;
+}
+.flex-1 {
+    flex: 1;
+}
+.flex-3 {
+    flex: 3;
+}
+header {
+    height: 100px;
+    background-color: rgb(213, 233, 252);
+}
+footer {
+    height: 200px;
+    background-color: rgb(255, 238, 206);
+}
+.content-wrapper {
+    height: 100%;
+}
+.content {
+    background-color: rgb(243, 243, 243);
+    margin: 10px;
+    flex: 3;
+}
+.sidebar {
+    background-color: rgb(236, 235, 235);
+    margin: 10px;
+    flex: 1;
+}
+.border {
+    border: solid lightgray 1px;
+}
